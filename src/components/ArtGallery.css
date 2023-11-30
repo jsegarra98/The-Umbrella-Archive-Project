@@ -1,0 +1,105 @@
+/* ArtGallery.css */
+
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 20px;
+}
+
+.category-box {
+  text-align: center;
+  border: 1px solid red; /* Ensure this line is present for the red border */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #040000;
+  transition: box-shadow 0.3s ease;
+}
+
+.category-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.category-btn {
+  background-color: #000000;
+  border: 0.1rem solid red;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.category-btn:hover {
+  background-color: #b92929;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.action-btn {
+  background-color: #000000;
+  border: 0.1rem solid red;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #b92929;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: #fff;
+  padding: 10px;
+  border: 0.01rem solid red;
+  border-radius: 0.3rem;
+  background-color: inherit;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.title-and-desc {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.title-and-desc h1 {
+  margin-bottom: 10px;
+}
+
+.title-and-desc p {
+  margin-bottom: 20px;
+}
+
+.title-and-desc {
+  border-top: 0.1rem solid white;
+  border-bottom: 0.1rem solid white;
+}
+
+@media screen and (min-width: 768px) {
+  .category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

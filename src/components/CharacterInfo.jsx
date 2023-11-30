@@ -1,0 +1,65 @@
+import Header from "./Header";
+import Footer from "./Footer";
+import "./CharacterInfo.css";
+
+const CharacterInfo = () => {
+  return (
+    <div className='CharacterInfo'>
+      <Header />
+      <div className='title-and-desc'>
+        <h1>Character Information</h1>
+        <p>
+          This is the page where you can browse the main characters of Resident
+          Evil from each game. <br />
+          Select a game you want to browse the characters from.
+        </p>
+      </div>
+      <div className='character-options-container'>
+        <CharacterOption
+          title='Resident Evil 2 (Remake)'
+          imageSrc='https://preview.redd.it/kbh368texsh91.jpg?auto=webp&s=2e0cdb5d5080d119563cb93c9224c8fbd8923100'
+          buttonLink='/Character Information Sheet/RE2R'
+        />
+        <CharacterOption
+          title='Resident Evil 3 (Remake)'
+          imageSrc='https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png'
+          buttonLink='/Character Information Sheet/RE3R'
+        />
+        <CharacterOption
+          title='Resident Evil 4 (Remake)'
+          imageSrc='https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png'
+          buttonLink='/Character Information Sheet/RE4R'
+        />
+        <CharacterOption
+          title='Resident Evil 7'
+          imageSrc='https://assets-prd.ignimgs.com/2021/12/20/resident-evil-7-button-fin-1640038838419.jpg'
+          buttonLink='/Character Information Sheet/RE7'
+        />
+        <CharacterOption
+          title='Resident Evil 8 Village'
+          imageSrc='https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png'
+          buttonLink='/Character Information Sheet/RE8'
+        />
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+const CharacterOption = ({ title, imageSrc, buttonLink }) => {
+  return (
+    <div className='character-option'>
+      <img src={imageSrc} alt={`${title}`} className='info-image' />
+      <h1 className='character-title'>{title}</h1>
+      <a
+        href={buttonLink}
+        className='character-button'
+        rel='noopener noreferrer'
+      >
+        Browse
+      </a>
+    </div>
+  );
+};
+
+export default CharacterInfo;

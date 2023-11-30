@@ -1,0 +1,22 @@
+.character-options-container {
+  text-align: center;
+}
+
+.character-image {
+  border: 0.5rem solid rgb(90, 0, 0);
+  max-width: 100%;
+}
+
+/* iPad query */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .character-options-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Web Browser query */
+@media screen and (min-width: 1025px) {
+  .character-options-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

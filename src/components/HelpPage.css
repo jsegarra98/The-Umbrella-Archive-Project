@@ -1,0 +1,50 @@
+.contact-main {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 2rem auto; /* Centers the box and provides spacing from the top */
+  padding: 1rem; /* Spacing inside the box */
+  border: 0.1rem solid red; /* Border around the box */
+  border-radius: 1rem; /* Border radius for rounded corners */
+}
+
+.form-main {
+  /* Adjust as needed */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.contact-details {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.contact-button {
+  /* Adjust as needed */
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #2980b9;
+}
+
+.contact-details-bottom,
+.contact-header {
+  /* Adjust as needed */
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contact-details-bottom h1 {
+  margin-bottom: 1rem;
+}
+
+.contact-details-bottom p {
+  margin: 0.5rem 0;
+}
