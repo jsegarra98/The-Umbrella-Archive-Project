@@ -11,7 +11,7 @@ Welcome to The Umbrella Archive – your ultimate destination for Resident Evil 
 - [License](#license)
 
 ## About
-The Umbrella Archive is a fan-driven platform dedicated to the Resident Evil franchise. Explore character information, browse concept art, and immerse yourself in the world of Resident Evil through this interactive archive.
+The Umbrella Archive is a fan-driven platform dedicated to the Resident Evil franchise made for a capstone project in my time in Whitecliffe College. Explore character information, browse concept art, and immerse yourself in the world of Resident Evil through this interactive archive.
 
 ## Features
 - **Art Gallery:** Discover official concept art and fan-created artworks.
@@ -36,9 +36,4 @@ Contributions are welcome! If you have suggestions, bug reports, or want to cont
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ---
-
-Feel free to customize the README with more details specific to your project. Add information about installation, configuration, deployment, and any other relevant details.
