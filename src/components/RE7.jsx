@@ -1,5 +1,5 @@
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 import "./CSheet.css";
 
 const RE7 = () => {
