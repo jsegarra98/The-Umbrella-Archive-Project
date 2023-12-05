@@ -18,27 +18,27 @@ const CharacterInfo = () => {
         <CharacterOption
           title='Resident Evil 2 (Remake)'
           imageSrc='https://preview.redd.it/kbh368texsh91.jpg?auto=webp&s=2e0cdb5d5080d119563cb93c9224c8fbd8923100'
-          buttonLink='/Character Information Sheet/RE2R'
+          buttonLink='/CharSheet/RE2R'
         />
         <CharacterOption
           title='Resident Evil 3 (Remake)'
           imageSrc='https://image.api.playstation.com/vulcan/ap/rnd/202206/0206/WmriZBRlSeXWEEDLJOWW7MdW.png'
-          buttonLink='/Character Information Sheet/RE3R'
+          buttonLink='/CharSheet/RE3R'
         />
         <CharacterOption
           title='Resident Evil 4 (Remake)'
           imageSrc='https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png'
-          buttonLink='/Character Information Sheet/RE4R'
+          buttonLink='/CharSheet/RE4R'
         />
         <CharacterOption
           title='Resident Evil 7'
           imageSrc='https://assets-prd.ignimgs.com/2021/12/20/resident-evil-7-button-fin-1640038838419.jpg'
-          buttonLink='/Character Information Sheet/RE7'
+          buttonLink='/CharSheet/RE7'
         />
         <CharacterOption
           title='Resident Evil 8 Village'
           imageSrc='https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png'
-          buttonLink='/Character Information Sheet/RE8'
+          buttonLink='/CharSheet/RE8'
         />
       </div>
       <Footer />
