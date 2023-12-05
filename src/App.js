@@ -21,13 +21,13 @@ function App() {
         <Route path='/art-gallery' component={ArtGallery} />
         <Route path='/merchandise' component={Merchandise} />
         <Route path='/helppage' component={HelpPage} />
-
-        <Route path='/Character Information Sheet/RE2R' component={RE2Remake} />
-        <Route path='/Character Information Sheet/RE3R' component={RE3Remake} />
-        <Route path='/Character Information Sheet/RE4R' component={RE4Remake} />
-        <Route path='/Character Information Sheet/RE7' component={RE7} />
-        <Route path='/Character Information Sheet/RE8' component={RE8} />
         <Route path='/character-info' component={CharacterInfo} />
+
+        <Route path='/CharSheet/RE2R' component={RE2Remake} />
+        <Route path='/CharSheet/RE3R' component={RE3Remake} />
+        <Route path='/CharSheet/RE4R' component={RE4Remake} />
+        <Route path='/CharSheet/RE7' component={RE7} />
+        <Route path='/CharSheet/RE8' component={RE8} />
       </div>
     </Router>
   );
