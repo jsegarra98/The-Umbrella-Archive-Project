@@ -1,0 +1,6 @@
+{
+  "clean_urls": false,
+  "routes": {
+    "/CharSheet/**": "index.html"
+  }
+}
