@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import "./CharacterInfo.css";
+import { Link } from "react-router-dom";
 
 const CharacterInfo = () => {
   return (
@@ -51,13 +52,13 @@ const CharacterOption = ({ title, imageSrc, buttonLink }) => {
     <div className='character-option'>
       <img src={imageSrc} alt={`${title}`} className='info-image' />
       <h1 className='character-title'>{title}</h1>
-      <a
+      <Link
         href={buttonLink}
         className='character-button'
         rel='noopener noreferrer'
       >
         Browse
-      </a>
+      </Link>
     </div>
   );
 };
