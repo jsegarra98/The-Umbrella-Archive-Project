@@ -52,11 +52,7 @@ const CharacterOption = ({ title, imageSrc, buttonLink }) => {
     <div className='character-option'>
       <img src={imageSrc} alt={`${title}`} className='info-image' />
       <h1 className='character-title'>{title}</h1>
-      <Link
-        href={buttonLink}
-        className='character-button'
-        rel='noopener noreferrer'
-      >
+      <Link to={buttonLink} className='character-button'>
         Browse
       </Link>
     </div>
